@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafiques Home Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+ <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logow.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="">VOID!!!</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+          </nav>
+
+<div class="text-box">
+          <h1>Greatest restaurant in town</h1>
+          <p>We're extremely proud to be the longest running indian restaurant, under one family ownership in Worthing.</p>             
+          <a href="" class="hero-btn">Order Now</a>
+</div>
+
+</section>
+
+<!--------Background-------->
+
+<section class="background">
+    <h1>We believe that if we provide great tasting food, customers will keep coming back.</h1>
+    <p>We believe in using top quality ingredients and ensuring a sustainable business plan is the reason we have been here since 1986. We always aim to always exceed your expectations, and we know that sometimes we won't. So, we ask you to help us improve, and tell us when something is not quite to your standards. We will always take on real feedback and look to adapt ourselves. Ultimately, we have survived because we have been happy to listen and change</p>
+
+    <div class="row">
+        <div class="background-col">
+            <h3>Established in 1986</h3>
+            <p>Serving the community since 1986, and always welcoming our customers like family means we've become a restaurant that's at the very heart of our community.</p>
+        </div>
+        <div class="background-col">
+            <h3>Fresh Food</h3>
+            <p>All our food is created and served with love and care. We only use top quality ingredients and all dishes are freshly made on the day of service. When you dine with us, we promise to deliver the best service along with the best ingredients.</p>
+        </div>
+        <div class="background-col">
+            <h3>Family Owned</h3>
+            <p>All the team at Shafiques like to take the time to build great relationships with you and your family that will last for generations. Since we opened in 1986, our service has been our foundation and we always aim to exceed your expectations.</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!--------Private Hire-------->
+
+<section class="privatehire">
+    <h1>Private Hire</h1>
+    <p>Shafiques can cater for internal or external private hire events. We understand that every event will be different so please get in touch and can we give you the best package.</p>
+
+    <div class="row">
+        <div class="privatehire-col">
+            <img src="images/menu2.jpg">
+            <div class="layer">
+                <h3>Modern</h3>
+            </div>
+        </div>
+        <div class="privatehire-col">
+            <img src="images/customers.jpg">
+            <div class="layer">
+                <h3>Family Friendly</h3>
+            </div>
+        </div>
+        <div class="privatehire-col">
+            <img src="images/phire.jpg">
+            <div class="layer">
+                <h3>Relaxing</h3>
+            </div>
+        </div>
+    
+    </div>
+
+</section>
+
+<!--------Testimonials-------->
+
+<Section class="testimonials">
+    <h1>What Our Customers Say</h1>
+    <p>With over 300 reviews on TripAdvisor we have a brilliant rating of 4.5 out of 5. See what some of our customers have to say.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/jeff_dunn.jpg">
+            <div>
+                <p>The food was fantastic, the table service from Tanvir was excellent. We will be returning with friends and family!!  Highly recommend this restaurant, staff, ambience and food are all superb.</p><br>
+                <h5>Rating: 4.5/5</h5>
+                <h3>Jeff Dunn</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/lisa_monroe.jpg.webp">
+            <div>
+                <p>Lovely meal with family and friends, As always the food was to the highest standard. Two of our group had the Chef's Special Biryani (chicken, lamb, prawn and mushroom), served with a vegetable curry, they would highly recommend.</p><br>
+                <h5>Rating: 5/5</h5>
+                <h3>Lisa Monroe</h3>
+        </div>
+    </div>
+
+</Section>
+
+<!--------Call To Action-------->
+
+<section class="cta">
+    <h1>For any enquiries please get in touch</h1>
+    <a href="" class="hero-btn">CONTACT US</a>        
+</section>
+
+
+<!--------Footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Serving the community since 1986, and always welcoming our customers like family means we've become a restaurant that's at the very heart of our community.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by Jaber Ahmed <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+
+
+
+<!--------JavaScript for Toggle Menu-------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

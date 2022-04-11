@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafiques About Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logow.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="order.html">ORDER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="">VOID!!!</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+          </nav>
+    <h1>About Us</h1>
+</section>
+
+<!--------About Us Content-------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>We're extremely proud to be the longest running Indian restaurant, under one family ownership.</h1>
+            <p>We're extremely proud to be the longest running Indian restaurant, under one family ownership, in Worthing and the surrounding areas. We've been the longest for a reason - we never compromise on service and quality and take the time to get to know our customers. Serving the community since 1986, and always welcoming our customers like family means we've become a restaurant that's at the very heart of our community.</p>
+            <a href="" class="hero-btn blue-btn">ORDER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/staff.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+<!--------Footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Serving the community since 1986, and always welcoming our customers like family means we've become a restaurant that's at the very heart of our community.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by Jaber Ahmed <i class="fa fa-heart-o"></i></p>
+</section>
+
+
+
+
+
+<!--------JavaScript for Toggle Menu-------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
